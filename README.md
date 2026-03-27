@@ -104,10 +104,4 @@ truffle migrate
 * Integrate with frontend (React / Web3.js)
 * Deploy on testnet (Sepolia / Goerli)
 
-* Your Name
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
