@@ -1,45 +1,39 @@
-Here’s a **clean, professional README.md** you can directly copy-paste into your GitHub repo 👇
-
----
-
-```markdown
 # 🧾 Hello World Smart Contract
 
-A simple smart contract written in Solidity that stores and returns a "Hello World" message.  
-This project is created as a beginner-friendly introduction to Ethereum smart contracts.
+A simple smart contract written in Solidity that stores and returns a "Hello World" message.
+This project is a beginner-friendly introduction to Ethereum smart contracts.
 
 ---
 
 ## 📌 Features
 
-- Written in Solidity (^0.8.0)
-- Demonstrates:
-  - State variables
-  - Public view functions
-- Easy to deploy and test
+* Written in Solidity (^0.8.0)
+* Demonstrates:
+
+  * State variables
+  * Public view functions
+* Easy to deploy and test
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Solidity
-- Ethereum Blockchain
-- (Optional) Truffle / Remix IDE
+* Solidity
+* Ethereum Blockchain
+* Truffle / Remix IDE
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
 FirstSmartContract/
 │── contracts/
 │   └── HelloWorld.sol
 │── migrations/
 │── test/
 │── truffle-config.js
-
-````
+```
 
 ---
 
@@ -57,40 +51,40 @@ contract HelloWorld {
         return helloMessage;
     }
 }
-````
+```
 
 ---
 
 ## 🚀 How to Run / Deploy
 
-### 🔹 Option 1: Using Remix (Easiest)
+### 🔹 Using Remix (Easiest)
 
-1. Go to [https://remix.ethereum.org](https://remix.ethereum.org)
+1. Go to https://remix.ethereum.org
 2. Create a new file `HelloWorld.sol`
 3. Paste the contract code
 4. Compile the contract
 5. Deploy using "Deploy & Run" tab
-6. Call `getHelloMessage()` to see output
+6. Call `getHelloMessage()`
 
 ---
 
-### 🔹 Option 2: Using Truffle
+### 🔹 Using Truffle
 
-1. Install dependencies:
+Install Truffle:
 
-```bash
+```
 npm install -g truffle
 ```
 
-2. Compile contract:
+Compile contract:
 
-```bash
+```
 truffle compile
 ```
 
-3. Deploy contract:
+Deploy contract:
 
-```bash
+```
 truffle migrate
 ```
 
@@ -107,5 +101,13 @@ truffle migrate
 ## 🔐 Future Improvements
 
 * Add setter function to update message
-* Integrate with a frontend (React / Web3.js)
+* Integrate with frontend (React / Web3.js)
 * Deploy on testnet (Sepolia / Goerli)
+
+* Your Name
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
