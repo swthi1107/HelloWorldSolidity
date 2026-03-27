@@ -1,0 +1,210 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getHelloMessage",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getHelloMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/swath/workspace/firstProject/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"c:/Users/swath/workspace/firstProject/contracts/HelloWorld.sol\":{\"keccak256\":\"0xe8b66ba4926c9c5c022a707e9aa09a1573b422fd7822b3b1d9ba43276494bfa1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2d722943884d2761a60a4eb40906de4cf9c47591f39b1a7d0f88be2225b462fe\",\"dweb:/ipfs/Qmd7DyMQhFRC3ChBJ2J39X35hnms38N2kcg2co7bhGFRWk\"]}},\"version\":1}",
+    "bytecode": "608080604052346100a7575f80546001908181811c9116801561009d575b602082101461008957601f8111610060575b50507f48656c6c6f20776f726c6400000000000000000000000000000000000000001690556101bd90816100ac8239f35b828052601f60208420910160051c8101905b81811061007f575061002f565b8381558201610072565b634e487b7160e01b83526022600452602483fd5b90607f169061001d565b5f80fdfe6080600436101561000e575f80fd5b5f803560e01c633493b37c14610022575f80fd5b34610184578060031936011261018457809181549060019382851c85841695861561017a575b602094858310881461016657858596979884875291825f1461014a5750506001146100f3575b5050601f801993849203011681019381851067ffffffffffffffff8611176100df579291849192604094838652818452845191828186015281955b8387106100c75750508394508582601f949501015201168101030190f35b868101820151898801890152958101958895506100a9565b634e487b7160e01b81526041600452602490fd5b8680528592508691907f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b828410610132575050508201015f8061006e565b8054848801860152869550879490930192810161011e565b925093505060ff191682840152151560051b8201015f8061006e565b634e487b7160e01b87526022600452602487fd5b90607f1690610048565b80fdfea264697066735822122037987ef568d36f976b36930e625899ba462eb9400b4c959feefc105718043f1764736f6c63430008150033",
+    "deployedBytecode": "6080600436101561000e575f80fd5b5f803560e01c633493b37c14610022575f80fd5b34610184578060031936011261018457809181549060019382851c85841695861561017a575b602094858310881461016657858596979884875291825f1461014a5750506001146100f3575b5050601f801993849203011681019381851067ffffffffffffffff8611176100df579291849192604094838652818452845191828186015281955b8387106100c75750508394508582601f949501015201168101030190f35b868101820151898801890152958101958895506100a9565b634e487b7160e01b81526041600452602490fd5b8680528592508691907f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5635b828410610132575050508201015f8061006e565b8054848801860152869550879490930192810161011e565b925093505060ff191682840152151560051b8201015f8061006e565b634e487b7160e01b87526022600452602487fd5b90607f1690610048565b80fdfea264697066735822122037987ef568d36f976b36930e625899ba462eb9400b4c959feefc105718043f1764736f6c63430008150033",
+    "sourceMap": "60:187:0:-:0;;;;;;;119:13;60:187;;;;;;;;;;;;;;-1:-1:-1;60:187:0;;;;;;;;;;;-1:-1:-1;;;60:187:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;60:187:0;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "60:187:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;60:187:0;;;-1:-1:-1;;;60:187:0;;;;;;;;;;;;;;-1:-1:-1;60:187:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;60:187:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;60:187:0;;;;;;;;;;;;;;;;;",
+    "sourcePath": "c:/Users/swath/workspace/firstProject/contracts/HelloWorld.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.21+commit.d9974bed"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/swath/workspace/firstProject/contracts/HelloWorld.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                13
+            ]
+        },
+        "id": 14,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "69:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "helloMessage",
+                        "nameLocation": "104:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "89:43:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "89:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f20776f726c64",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "119:13:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_ed6c11b0b5b808960df26f5bfc471d04c1995b0ffd2055925ad1be28d6baadfd",
+                                "typeString": "literal_string \"Hello world\""
+                            },
+                            "value": "Hello world"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "204:38:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "name": "helloMessage",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 4,
+                                        "src": "222:12:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 8,
+                                    "id": 10,
+                                    "nodeType": "Return",
+                                    "src": "215:19:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "3493b37c",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getHelloMessage",
+                        "nameLocation": "150:15:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "165:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 8,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 7,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 12,
+                                    "src": "189:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 6,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "189:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "188:15:0"
+                        },
+                        "scope": 13,
+                        "src": "141:101:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "60:187:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "33:214:0"
+    },
+    "functionHashes": {
+        "getHelloMessage()": "3493b37c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "89000",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getHelloMessage()": "infinite"
+        }
+    }
+}
